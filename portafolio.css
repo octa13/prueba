@@ -1,0 +1,253 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: #C4C4C4;
+  font-family: 'Share Tech', sans-serif;
+  min-width: 1200px;
+  position: relative;
+}
+.logo{
+  font-weight: 600;
+  font-size: 3.8rem;
+}
+
+
+
+
+
+
+
+/*menu de navegación*/
+
+nav {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a.menu {
+  padding: 3px 5px; /* Reducir el padding para acercar más los enlaces */
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: rgb(0, 0, 0);
+  margin: 0; /* Asegurarse de que no haya margen entre los enlaces */
+}
+
+nav .menu-container {
+  display: flex;
+  gap: 10px; /* Ajusta este valor para controlar la separación entre los enlaces */
+}
+
+
+
+
+
+
+
+
+
+/*Hover de navegación*/
+
+.menu:hover{
+  background-color: #0a5592;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 120px;
+  color: white;
+}
+
+
+a{
+
+  color: black;
+}
+ a:hover{
+
+  color: white;
+ }
+
+
+/***************************************************************/
+
+
+
+
+header{
+ position: absolute;
+ bottom: 30%;
+ padding: 0 50px;
+}
+header h1{
+  font-size: 7rem;
+}
+header h2{
+  font-size: 4rem;
+}
+header p{
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header button{
+  padding: 0 5px;
+  width: 140px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  background-color: #0a5592;
+  border-radius: 25px;
+  transition: width 0.5s;
+}
+button img{
+  display: none;
+}
+button:hover img{
+  display: block;
+}
+header button:hover{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+}
+
+
+
+
+.container .nueva {
+  position: absolute;
+  height: 85vh; /* Ajusta la altura al 70% de la altura de la ventana */
+  width: auto;  /* Mantiene la proporción de la imagen */
+  right: 0%;
+  top: 15%;     /* Ajusta la posición según tus necesidades */
+  z-index: 999;
+
+}
+
+.container .fondo-emp{
+  position: absolute;
+  height: 85vh;
+  width: 550px;
+  right: 1%;
+  top: 15%; /* Ajusta este valor también para mantener ambas imágenes alineadas */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*icono de redes*/
+
+.icons{
+  position: absolute;
+  bottom: 8%;
+  padding: 0 50px;
+}
+.icons i{
+  font-size: 2.5rem;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+/*hover de icono*/
+.icons i:hover{
+  color: #ffffff;
+  transition: all 0.3s ease 0s;
+  padding: 5px 10px;
+  background-color: #0a5592;
+}
+
+
+
+
+
+/*imagen de maxi*/
+.nueva{
+  
+  position: absolute;
+  height: 400x;
+  width: 350px;
+  right: 0%;
+  bottom: 0;
+  z-index: 999;
+  margin-top: 0;
+  
+}
+
+
+
+
+
+
+/******************************************************************/
+
+.marca{
+  text-decoration: none;
+  color: black !important;
+}
+
+
+
+/*Enlace para usar el whatsapp*/
+.whatsapp_float {
+  position: fixed;
+  bottom: 20px;  /* Distancia desde la parte inferior */
+  right: 20px;   /* Distancia desde la parte derecha */
+  z-index: 1000; /* Asegura que el botón quede por encima de otros elementos */
+}
+
+.whatsapp_float img {
+  width: 60px;    /* Tamaño del icono */
+  height: 60px;
+  border-radius: 50%;  /* Hace que el ícono sea circular */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
+  transition: transform 0.3s ease;  /* Efecto suave al pasar el mouse */
+}
+
+.whatsapp_float img:hover {
+  transform: scale(1.1);  /* Aumenta ligeramente el tamaño cuando se pasa el mouse */
+}
+
+/*Enlace para usar el whatsapp*/
+.whatsapp_float {
+position: fixed;
+bottom: 20px;  /* Distancia desde la parte inferior */
+right: 20px;   /* Distancia desde la parte derecha */
+z-index: 1000; /* Asegura que el botón quede por encima de otros elementos */
+}
+
+.whatsapp_float img {
+width: 60px;    /* Tamaño del icono */
+height: 60px;
+border-radius: 50%;  /* Hace que el ícono sea circular */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
+transition: transform 0.3s ease;  /* Efecto suave al pasar el mouse */
+}
+
+.whatsapp_float img:hover {
+transform: scale(1.1);  /* Aumenta ligeramente el tamaño cuando se pasa el mouse */
+}

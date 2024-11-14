@@ -132,13 +132,15 @@ header button:hover{
 
 
 
-.container .nueva {
+.container .nueva1 {
   position: absolute;
-  height: 85vh; /* Ajusta la altura al 70% de la altura de la ventana */
+  height: 500px; /* Ajusta la altura al 70% de la altura de la ventana */
   width: auto;  /* Mantiene la proporción de la imagen */
   right: 0%;
-  top: 15%;     /* Ajusta la posición según tus necesidades */
+  /*top: 15%; */    /* Ajusta la posición según tus necesidades */
   z-index: 999;
+padding-bottom: -200px;
+ border: solid black;
 
 }
 
@@ -147,7 +149,8 @@ header button:hover{
   height: 85vh;
   width: 550px;
   right: 1%;
-  top: 15%; /* Ajusta este valor también para mantener ambas imágenes alineadas */
+  /*top: 15%; /* Ajusta este valor también para mantener ambas imágenes alineadas */
+  border: solid black;
 }
 
 
@@ -185,11 +188,11 @@ header button:hover{
 
 
 
-/*imagen de maxi*/
-.nueva{
+/*imagen de maxi
+.nueva1{
   
   position: absolute;
-  height: 400x;
+  height: 400px;
   width: 350px;
   right: 0%;
   bottom: 0;
@@ -197,7 +200,7 @@ header button:hover{
   margin-top: 0;
   
 }
-
+*/
 
 
 
@@ -282,3 +285,6 @@ transition: transform 0.3s ease;  /* Efecto suave al pasar el mouse */
 .whatsapp_float img:hover {
 transform: scale(1.1);  /* Aumenta ligeramente el tamaño cuando se pasa el mouse */
 }
+
+
+

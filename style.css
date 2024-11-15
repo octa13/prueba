@@ -280,6 +280,9 @@ header button:hover {
 
 body{
   background-color: #C4C4C4;
+padding: 0;
+margin: 0;
+
 }
 
 
@@ -296,7 +299,7 @@ body{
 
 .navbar{
 height: 65px;
-border: solid black;
+
 }
 
 .offcanvas-title{
@@ -324,8 +327,94 @@ border: solid black;
 }
 
 .t{
-  color: green;
+  color: black;
+  padding: 70px 0px 0px 10px ;
+  font-size: 40px;
 }
+
+.t2{
+padding: 0px 10px;
+font-size: 25px;
+}
+
+.t3{
+ padding: 0px 10px;
+ font-size: 15px;
+}
+
+
+.masinfo2{
+  padding: 0px 0px  0px 5px;
+
+  height: 80px;
+  width: 100%;
+}
+
+
+.bot{
+color: white;
+background-color: #0a5592;
+border-radius: 20px;
+width: 120px;
+border: none;
+height: 35px;
+
+}
+
+
+.a{
+  display: flex;
+}
+
+.a1{
+ 
+  width: 50%;
+}
+
+.a2{
+  display: flex;
+  justify-content: right;
+ 
+  width: 50%;
+ 
+}
+.ivm{
+height: 300px;
+position: absolute;
+ 
+
+
+  z-index: 999;
+
+}
+
+.imv2{
+  height:260px ;
+  padding: 30px 5px 0px 0px;
+  width:500px;
+
+}
+
+hr{
+
+margin: 8px 0; 
+}
+
+.subt{
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0 0 0;
+}
+
+.testimonio{
+  background-color: #0a5592;
+
+}
+
+.carousel-inner{
+  background-color: aquamarine;
+}
+
 
 
 

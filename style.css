@@ -328,8 +328,9 @@ height: 65px;
 
 .t{
   color: black;
-  padding: 70px 0px 0px 10px ;
+  padding: 15px 0px 0px 10px ;
   font-size: 40px;
+
 }
 
 .t2{
@@ -374,17 +375,16 @@ height: 35px;
 .a2{
   display: flex;
   justify-content: right;
- 
+  align-items: end;
   width: 50%;
  
 }
 .ivm{
-height: 300px;
+height: 250px;
 position: absolute;
  
-
-
   z-index: 999;
+  
 
 }
 
@@ -408,15 +408,161 @@ margin: 8px 0;
 
 .testimonio{
   background-color: #0a5592;
-
-}
-
-.carousel-inner{
-  background-color: aquamarine;
 }
 
 
 
+.carousel-item img {
+  height: 400px; /* Ajusta esta altura según lo que necesites */
+  object-fit: cover; /* Asegura que la imagen mantenga proporciones */
+  object-position: center; /* Centra la imagen */
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* Asegura que esté por encima de las imágenes */
+  text-align: center;
+}
+
+.carousel-overlay .btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: solid #ff4800;
+  background-color: transparent;
+  width: 150px;
+}
+
+
+
+
+.subt2{
+ text-align: center;
+  /*background:linear-gradient(#0a5592, #0570c7) ;*/
+ 
+  color: white;
+
+  font-size: 50px;
+ 
+
+}
+
+
+.c{
+  background-color: #0a5592;
+  height: 350px;
+  padding: 40px 0 0 0 ;
+
+
+  
+}
+
+
+.parrafo1{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding:20px 35px 30px 35px;
+}
+
+
+.contactame{
+
+  color: black;
+background-color: #ffffff;
+border-radius: 20px;
+width: 120px;
+border: none;
+height: 35px;
+text-align: center;
+margin: 0 0 0 35%;
+}
+
+footer{
+height: 250px ;
+text-align: center;
+}
+
+
+.copy{
+  
+
+  text-align: center;
+  font-size: 15px;
+  width: 50%;
+  
+  margin: 0 0 0 25%;
+}
+
+.p1{
+  
+  width: 50%;
+}
+
+.p2{
+
+ 
+  background-image: url(img/portfolio_site_img/6.png ) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: black;
+  height: 100%;
+  width: 50%;
+  
+}
+
+
+
+
+
+
+
+.nestorl{
+  padding: 40px 0px 0px 10px ;
+  font-size: 35px;
+
+  color: black;
+
+}
+
+.face2{
+  padding: 0 0 0 10px;
+  height: 30px;
+}
+
+
+.baner{
+ height:230px;
+ background-color:white;
+ display: flex;
+ justify-content:space-evenly;
+ align-items: center;
+}
+
+
+.ban1{
+  background-image: url(img/portfolio_site_img/GRAN\ EXPERIENCIA\ EN\ REDES.png);
+  height: 90%;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.ban2{
+  background-image: url(img/portfolio_site_img/GRAN\ EXPERIENCIA\ EN\ REDES\ \(1\).png);
+  height: 90%;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+}
 
 
 

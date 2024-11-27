@@ -292,8 +292,11 @@ margin: 0;
 
 
 .navbar-brand{
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 30px;
+
+  
+ 
 
 }
 

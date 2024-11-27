@@ -279,7 +279,7 @@ header button:hover {
 }
 
 body{
-  background-color: #C4C4C4;
+background-color: #C4C4C4;
 padding: 0;
 margin: 0;
 
@@ -327,20 +327,23 @@ height: 65px;
 }
 
 .t{
-  color: black;
+  color: rgb(49, 49, 49);
   padding: 15px 0px 0px 10px ;
-  font-size: 40px;
+  font-size: 35px;
+  font-family:fantasy;
 
 }
 
 .t2{
 padding: 0px 10px;
 font-size: 25px;
+
 }
 
 .t3{
  padding: 0px 10px;
  font-size: 15px;
+
 }
 
 
@@ -363,12 +366,55 @@ height: 35px;
 }
 
 
+hr{
+  
+}
+
+.marcas .carousel-inner img {
+  
+ 
+height: 150px; /* Ajusta la altura según tu necesidad */ 
+object-fit: contain; /* Ajusta cómo se recorta la imagen para adaptarse */
+background-color: white;
+
+}
+
+
+
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Cambia el color aquí */
+  /*border-radius: 50%;  Opcional: agrega un fondo redondeado */
+}
+
+.carousel-control-prev-icon{
+  background-color: rgba(0, 0, 0, 0.5); /* Cambia el color aquí */
+  /*border-radius: 50%;  Opcional: agrega un fondo redondeado */
+}
+
+
+
+
+
+
+
+
+
+.exp{
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0 0 0;
+
+}
+
+
+
 .a{
   display: flex;
+ 
 }
 
 .a1{
- 
+  padding: 30px 0 0 0;
   width: 50%;
 }
 
@@ -377,6 +423,8 @@ height: 35px;
   justify-content: right;
   align-items: end;
   width: 50%;
+  margin: 0 0 0 0px;
+
  
 }
 .ivm{
@@ -404,6 +452,8 @@ margin: 8px 0;
   text-align: center;
   font-size: 30px;
   padding: 20px 0 0 0;
+
+  
 }
 
 .testimonio{
@@ -482,19 +532,17 @@ margin: 0 0 0 35%;
 }
 
 footer{
-height: 250px ;
+height: 200px ;
 text-align: center;
 }
 
 
 .copy{
-  
-
   text-align: center;
   font-size: 15px;
   width: 50%;
-  
-  margin: 0 0 0 25%;
+ 
+  margin: 0 0 0 27%;
 }
 
 .p1{
@@ -522,25 +570,30 @@ text-align: center;
 
 
 .nestorl{
-  padding: 40px 0px 0px 10px ;
+  padding: 30px 0px 0px 10px ;
   font-size: 35px;
 
   color: black;
+  margin: 0;
 
 }
 
 .face2{
   padding: 0 0 0 10px;
-  height: 30px;
+  height: 25px;
+ 
 }
 
 
 .baner{
- height:230px;
- background-color:white;
+height:230px;
+
  display: flex;
  justify-content:space-evenly;
  align-items: center;
+
+
+
 }
 
 
@@ -564,7 +617,18 @@ text-align: center;
   
 }
 
+.cuadro{
 
+  height: 300px;
+  background-image: url(img/portfolio_site_img/GRAN\ EXPERIENCIA\ EN\ REDES\ \(2\).png);
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size:contain;
+  margin: 0px 13px 0px 13px;
+ 
+  background-color:#0a5592;
+  
+}
 
 /**********************************************************************************/
 

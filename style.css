@@ -566,6 +566,7 @@ align-items: center;
 
 .offcanvas-title{
   font-size: 20px;
+  color: white;
 }
 
 .offcanvas-body{
@@ -819,6 +820,7 @@ padding: 5px;
 .titulodePie{
   padding: 18px 0 1px 0;
   font-size: 20px;
+  
 }
 
 .textodePie{

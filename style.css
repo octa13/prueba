@@ -12,7 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   background-color: #C4C4C4;
- 
+  overflow-x: hidden;
 }
 a{
   text-decoration: none;
@@ -22,7 +22,7 @@ a{
   
 
   .desktop{
- 
+  
   display: block;
   
 }
@@ -59,7 +59,7 @@ nav a.menu {
   padding: 3px 5px;
   font-weight: bold;
   font-size: 1.7rem;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
   width: 140px;
   color: rgb(36, 36, 36);
@@ -515,17 +515,20 @@ align-items: center;
 @media (max-width: 600px) {
   .celulares {
     display: block; /* o flex, según necesites */
+     overflow-x: hidden;
   }
 
  .menudeNavegacion{
   display: block;
   height: 50px;
+
   
  }
 
 .navbar{
   height: 50px;
     background-color: #C4C4C4;
+    width: 100% !important;
 }
 
 .navbar-brand{

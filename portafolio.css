@@ -1,33 +1,54 @@
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   font-size: 62.5%;
 }
-.container{
-  width: 100%;
-  height: 100vh;
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
   background-color: #C4C4C4;
-  font-family: 'Share Tech', sans-serif;
-  min-width: 1200px;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  
+
+  .desktop{
+  
+  display: block;
+  
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.container-fluid {
+  width: 100%;
+ 
+  background-color: #C4C4C4;
   position: relative;
 }
-.logo{
+
+
+.logo {
   font-weight: 600;
   font-size: 3.8rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
 }
 
-
-
-
-
-
-
-/*menu de navegación*/
-
+/* menu de navegación */
 nav {
   padding: 20px 50px;
   display: flex;
@@ -36,218 +57,988 @@ nav {
 }
 
 nav a.menu {
-  padding: 3px 5px; /* Reducir el padding para acercar más los enlaces */
-  font-weight: 500;
+  padding: 3px 5px;
+  font-weight: bold;
   font-size: 1.7rem;
-  text-decoration: underline;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  color: rgb(0, 0, 0);
-  margin: 0; /* Asegurarse de que no haya margen entre los enlaces */
-}
-
-nav .menu-container {
-  display: flex;
-  gap: 10px; /* Ajusta este valor para controlar la separación entre los enlaces */
-}
-
-
-
-
-
-
-
-
-
-/*Hover de navegación*/
-
-.menu:hover{
-  background-color: #0a5592;
-  border-radius: 25px;
   text-decoration: none;
-  width: 120px;
+  cursor: pointer;
+  width: 140px;
+  color: rgb(36, 36, 36);
+  margin-right: 20px;
+ 
+}
+
+
+
+.menu:hover {
+  background-color: #0a5592;
+  border-radius: 70px;
+  text-decoration: none;
   color: white;
+  padding: 5px 13px;
+  width: 140px;
+  
+
+}
+
+.encabezado{
+  background-image: url(img/fondoencabezado.png);
+  height: 630px;
+  padding: 30px 0;
+  position: relative; /* para que .refernciaPrincipal se posicione sobre esto */
+}
+
+header {
+
+  background-image: url(img/banner.png);
+  
+  height: 450px;
+  width: 1270px;
+  margin-left: 48px;
+  border: solid white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+ 
+}
+
+.refernciaPrincipal{
+display: flex;
+justify-content: center;
+margin-left: 65px;
+position: absolute;
+top: 380px; /* o donde quieras que empiece */
+left: 273px;
+z-index: 2;
+gap: 1rem;
+
 }
 
 
-a{
 
-  color: black;
+.referencias{
+  background-image: url(img/fondobloque4.png);
+  border-radius: 10px;
+  border: solid 3px #6b6b6b;
+  height: 180px;
+  width: 300px;
+  margin-right: 70px;
+  transition: transform 0.3s ease; /* suaviza la animación */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); /* sombra suave */
+
 }
- a:hover{
 
+.referencias:hover{
+    transform: scale(1.05); /* agranda un 5% al hacer hover */
+}
+
+
+.referencia{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0 0 0;
+  
+}
+
+.preferencia{
+  text-align: center;
+  font-size: 25px;
+  background-color: #fc6023;
+  padding: 3px 0px;
+  width: 200px;
+  margin-left: 45px;
+  border-radius: 5px;
+}
+
+.botonReferencia{
+  background-color: transparent;
+  border: solid  #fc6023;
+  border-radius: 10px;
+  
+  font-weight: bolder;
+  font-size: 18px;
+  width: 80px;
+  color:#1b1b1b;
+  margin-left: 36%;
+
+  transition: transform 0.3s ease; /* Duración y suavidad de la transición */
+}
+
+
+.botonReferencia:hover{
+  background-color:#0a5592;
   color: white;
- }
-
-
-/***************************************************************/
-
-
-
-
-header{
- position: absolute;
- bottom: 30%;
- padding: 0 50px;
+  border: none;
+  padding: 3px 0;
 }
-header h1{
-  font-size: 7rem;
+
+
+
+.impulso{
+  height: 850px;
+  background-color:#0a5592;
+
 }
-header h2{
+
+.impulso2{
+  display: flex;
+}
+
+.canalEscritorio2{
+color: white;
+font-size: 50px;
+text-align: center;
+padding: 80px 0 0 0;
+
+}
+
+
+.reel{
+  height: 600px;
+  width: 400px;
+  background-color:transparent;
+  margin: 60px 20px 0 28px;
+  border-radius: 30px;
+  border: solid 0.8px white;
+  transition: transform 0.3s ease; /* suaviza la animación */
+}
+
+.reel:hover{
+  transform: scale(1.05); /* agranda un 5% al hacer hover */ 
+}
+
+.reel1{
+  height: 565px;
+  width: 365px;
+  background-image: url(img/reel1.png);
+  margin:17px 0 0 15px;
+  border-radius: 30px;
+ 
+}
+
+.reel2{
+  height: 565px;
+  width: 365px;
+  background-image: url(img/reel3.png);
+  margin:17px 0 0 15px;
+  border-radius: 30px;
+ 
+}
+
+.reel3{
+  height: 565px;
+  width: 365px;
+  background-image: url(img/reel2.png);
+  margin:17px 0 0 15px;
+  border-radius: 30px;
+ 
+}
+
+h1 {
+  font-size:80px;
+  font-weight: bold;
+  line-height: 1.1;
+
+}
+
+header h2 {
   font-size: 4rem;
 }
-header p{
+
+header p {
   font-size: 1.5rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  
+ 
 }
 
-header button{
+header button {
   padding: 0 5px;
-  width: 140px;
+  width: 160px;
   height: 40px;
-  border: 0;
-  outline: none;
   color: #fff;
-  font-weight: 500;
-  border: none;
-  cursor: pointer;
   background-color: #0a5592;
-  border-radius: 25px;
-  transition: width 0.5s;
+  transition: transform 0.3s ease; /* Duración y suavidad de la transición */
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  
 }
-button img{
+
+button img {
   display: none;
 }
-button:hover img{
+
+button:hover img {
   display: block;
 }
-header button:hover{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 160px;
+
+header button:hover {
+  transform: scale(1.1); /* Aumenta el tamaño un 10% al pasar el cursor */
+  background-color: #ff4800;
+  color: white;
+  text-decoration: none;
+
 }
 
-
-
-
-.container .nueva {
+.container-fluid .nueva {
   position: absolute;
-  height: 85vh; /* Ajusta la altura al 70% de la altura de la ventana */
-  width: auto;  /* Mantiene la proporción de la imagen */
+  height: 85vh;
   right: 0%;
-  top: 15%;     /* Ajusta la posición según tus necesidades */
+  top: 15%;
   z-index: 999;
-
 }
 
-.container .fondo-emp{
+.container-fluid .fondo-emp {
   position: absolute;
   height: 85vh;
   width: 550px;
   right: 1%;
-  top: 15%; /* Ajusta este valor también para mantener ambas imágenes alineadas */
+  top: 15%;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*icono de redes*/
-
-.icons{
+.icons {
   position: absolute;
   bottom: 8%;
   padding: 0 50px;
 }
-.icons i{
+
+.icons i {
   font-size: 2.5rem;
   padding: 0 10px;
   cursor: pointer;
+  color: black;
 }
 
-/*hover de icono*/
-.icons i:hover{
+.icons i:hover {
   color: #ffffff;
-  transition: all 0.3s ease 0s;
   padding: 5px 10px;
   background-color: #0a5592;
 }
 
-
-
-
-
-/*imagen de maxi*/
-.nueva{
-  
-  position: absolute;
-  height: 400x;
-  width: 350px;
-  right: 0%;
-  bottom: 0;
-  z-index: 999;
-  margin-top: 0;
-  
-}
-
-
-
-
-
-
-/******************************************************************/
-
-.marca{
+.marca {
   text-decoration: none;
   color: black !important;
 }
 
+.masinfo {
+  text-decoration: none;
+}
 
-
-/*Enlace para usar el whatsapp*/
+/* WhatsApp icon */
 .whatsapp_float {
   position: fixed;
-  bottom: 20px;  /* Distancia desde la parte inferior */
-  right: 20px;   /* Distancia desde la parte derecha */
-  z-index: 1000; /* Asegura que el botón quede por encima de otros elementos */
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .whatsapp_float img {
-  width: 60px;    /* Tamaño del icono */
+  width: 60px;
   height: 60px;
-  border-radius: 50%;  /* Hace que el ícono sea circular */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
-  transition: transform 0.3s ease;  /* Efecto suave al pasar el mouse */
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
 }
 
 .whatsapp_float img:hover {
-  transform: scale(1.1);  /* Aumenta ligeramente el tamaño cuando se pasa el mouse */
+  transform: scale(1.1);
 }
 
-/*Enlace para usar el whatsapp*/
-.whatsapp_float {
-position: fixed;
-bottom: 20px;  /* Distancia desde la parte inferior */
-right: 20px;   /* Distancia desde la parte derecha */
-z-index: 1000; /* Asegura que el botón quede por encima de otros elementos */
+
+.textoEscritorio{
+  font-size: 23px;
 }
 
-.whatsapp_float img {
-width: 60px;    /* Tamaño del icono */
-height: 60px;
-border-radius: 50%;  /* Hace que el ícono sea circular */
-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
-transition: transform 0.3s ease;  /* Efecto suave al pasar el mouse */
+.produccionesPropias{
+  background-color: #3a3a3a;
+  height: 290px;
+  width: 100%;
 }
 
-.whatsapp_float img:hover {
-transform: scale(1.1);  /* Aumenta ligeramente el tamaño cuando se pasa el mouse */
+.produccionesEscritorio{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding: 40px 0 0 0;
 }
+
+.naranja{
+  color: #fc6023;
+}
+
+.blanco{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.textoProducciones{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding: 20px 40px;
+}
+
+.verTodos{
+  background-color: #3a3a3a;
+  border: solid  #fc6023;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 160px;
+  color: white;
+  margin-left: 44%;
+  margin-top: 10px;
+  transition: transform 0.3s ease; /* Duración y suavidad de la transición */
+}
+
+.verTodos:hover{
+  background-color:  #ff4800;
+  color: white;
+   transform: scale(1.1); /* Aumenta el tamaño un 10% al pasar el cursor */
+}
+
+.bloqueMaxi{
+  background-color: #C4C4C4;
+  height: 1200px;
+}
+
+.bloque1m{
+  /*background-color:#C4C4C4;*/
+ background-image: url(img/fondobloque4.png);
+ background-position: right;
+ background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+}
+
+.bloqueImagen1{
+  height:350px;
+  width: 300px;
+  background-image: url(img/bloqueImagen1.png);
+  margin-left: 100px;
+  margin-top: 24px;
+}
+
+.bloqueTexto1{
+  font-size: 23px;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 24px;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.textoDescriptivo{
+  background-color: #dadada;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bloque2m{
+  background-color:#a7a7a7;
+  background-image: url(img/fondobloque3.png);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+}
+
+.bloqueImagen2{
+  height:350px;
+  width: 300px;
+  background-image: url(img/bloqueImagen2.png);
+  margin-left: 100px;
+  margin-top: 24px;
+}
+
+.bloqueTexto2{
+  font-size: 23px;
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.bloque3m{
+ background-image: url(img/fondobloque4.png);
+ background-position: right;
+ background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+}
+
+.bloqueImagen3{
+  height:350px;
+  width: 300px;
+  background-image: url(img/bloqueImagen3.png);
+  margin-left: 100px;
+  margin-top: 24px;
+}
+
+.bloqueTexto3{
+  font-size: 23px;
+  width: 50%;
+  margin-left: 32px;
+  margin-top: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtitulodeBloque{
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #0a5592;
+  width: 280px;
+  padding: 0 10px;
+  color: white;
+}
+
+.colaboraciones{
+  background-color: white;
+  height: 380px;
+}
+
+
+.colaboracionesEscritorio{
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+.imagenescolab{
+
+  display: flex;
+  justify-content: center;
+}
+
+.colab{
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  margin: 0 30px;
+  margin-top: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.canal{
+  background-color:#fc6023;
+  height: 600px;
+}
+
+
+.canalEscritorio{
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.negro{
+  color: black;
+}
+
+.youtube{
+  display: flex;
+  justify-content: center;
+}
+
+
+.imagenyoutube{
+  margin: 30px 0 0 0;
+  width: 800px;
+  height: 400px;
+  
+  background-image: url(img/veteviendo.png);
+}
+
+
+.redesSocialesescritorio{
+  height:250px;
+  background-color: #0a5592;
+}
+
+.contenedorPrincipal{
+  display: flex;
+  
+ 
+}
+
+.textoparaRedes{
+  
+  width: 55%;
+}
+
+.textoTexto{
+  margin: 50px 20px 0 20px;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 0 0 100px;
+
+  margin-left: 50px;
+ color: white;
+}
+
+.textoTexto2{
+  margin: 0px 20px 50px 20px;
+  
+  font-size: 20px;
+  padding: 0 0 0 100px;
+ color: white;
+  margin-left: 50px;
+}
+
+
+
+.redesSociales{
+ 
+  
+  margin: 0 0 0 100px;
+  display: flex;
+  flex-direction: column; /* clave para ponerlas una sobre otra */
+  width: 40%;
+
+}
+
+.itemRed{
+  height: 50px;
+  background-color:#1591f7;
+  padding: 5px;
+  
+  
+}
+
+.claseTiktok{
+margin: 55px 0 30px 0;
+display: flex;
+align-items: center;
+}
+
+.elDiccionario{
+  color: white;
+  margin-left: 20px;
+}
+
+.claseInstagram{
+  display: flex;
+  align-items: center;
+}
+
+.piedePagina{
+  background-color: #C4C4C4;
+  height: 160px;
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+
+
+  }
+
+
+
+
+@media (max-width: 1023px) {
+  .desktop{
+    display: none;
+  }
+}
+/**********************************************************************************************************/
+/**********************************************************************************************************/
+/**********************************************************************************************************/
+/**********************************************************************************************************/
+/**********************************************************************************************************/
+/**********************************************************************************************************/
+/**********************************************************************************************************/
+/**********************************************************************************************************/
+/* VERSIÓN CELULAR */
+
+
+
+@media (max-width: 600px) {
+  .celulares {
+    display: block; /* o flex, según necesites */
+     overflow-x: hidden;
+  }
+
+ .menudeNavegacion{
+  display: block;
+  height: 20px;
+
+  
+ }
+
+.navbar{
+  height: 50px;
+    background-color: #C4C4C4;
+    width: 100% !important;
+}
+
+.navbar-brand{
+  color: black;
+  font-size: 20px;
+  
+}
+
+.tituloCel{
+ 
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.subtituloCel{
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.contactameCel{
+  width: 130px;
+  background-color: #0a5592;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 3px;
+  border: none;
+  margin-left: 20px;
+
+}
+
+
+/* Estilo base */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  transition: background-image 0.3s ease;
+}
+
+/* Estilo al hacer scroll */
+.navbar.scrolled .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+
+.offcanvas-title{
+  font-size: 20px;
+  color: white;
+}
+
+.offcanvas-body{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  
+  font-weight: bold;
+}
+
+.offcanvas {
+  background-image: url(img/fondoof.png);
+ 
+  
+}
+
+.nav-link{
+  color: white;
+}
+
+
+.imagendeMaxi{
+  margin: 20px 0 0 0;
+  height: 500px;
+  width: 600px;
+  background-image:url(img/fondoencabezado.png);
+  background-size: cover;
+  padding: 20px 20px 0 20px;
+ 
+  
+}
+
+.imagendeMaxi2{
+  height: 200px;
+  width: 350px;
+  background-image: url(img/bannerCel.png);
+}
+
+.bloquemuestra1{
+  height: 100px;
+  width: 350px;
+  background-image: url(img/fondobloque4.png);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8); /* sombra suave */
+}
+
+
+.imagendeMaxi img {
+  position: absolute;
+}
+
+.fondo {
+  z-index: 1;
+  margin-left: 70px;
+}
+
+.frente {
+  z-index: 2;
+  margin-left: 70px;
+}
+
+
+.produccionesCel{
+  background-color: #3a3a3a;
+  height: 235px;
+}
+
+.tituloProduccionCel{
+font-weight: bold;
+font-size: 23px;
+text-align: center;
+color: white;
+padding: 40px 20px 0 20px;
+margin-bottom: 15px;
+}
+
+.naranja{
+  color: #fc6023;
+}
+
+.blanco{
+  color: white;
+}
+
+.parrafoproduCel{
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.vertodosCel{
+ 
+  width: 145px;
+  background-color:#3a3a3a;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 3px;
+  border: solid  #fc6023;
+  margin-left: 33%;
+
+}                                 
+
+.videosdeRed{
+  background-color: #0a5592;
+  height:600px;
+}
+
+.blanco{
+  color: white;
+}
+
+
+.carousel-inner{
+  background-color: transparent;
+  height: 450px;
+  width: 320px;
+  margin-left: 10%;
+  margin-top: 25px;
+  border-radius: 30px;
+  border: solid white;
+}
+
+.carousel-item{
+ 
+  height: 430px;
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 3%;
+  margin-top: 2.5%;
+  border: none;
+}
+
+.d-block{
+border-radius: 30px;
+height: 430px;
+}
+
+.referencia{
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+}
+
+
+.botonReferencia{
+  background-color: transparent;
+  border: solid  #fc6023;
+  border-radius: 10px;
+  
+  font-weight: bolder;
+  font-size: 18px;
+  width: 70px;
+  color:#1b1b1b;
+  margin-left: 38%;
+
+  transition: transform 0.3s ease; /* Duración y suavidad de la transición */
+}
+
+
+.botonReferencia:hover{
+  background-color:#0a5592;
+  color: white;
+  border: none;
+  padding: 3px 0;
+}
+
+.colaboracionCel{
+  background-color: white;
+  height: 285px;
+}
+
+.colaboracionesCelular{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  padding: 30px 0 0 0;
+}
+
+.carrusel-marcas {
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;
+  height: 230px;
+
+}
+
+.carrusel-track {
+  display: flex;
+  width: max-content;
+  animation: scrollMarcas 20s linear infinite;
+  gap: 50px;
+  align-items: center;
+}
+
+.carrusel-track img {
+  height: 150px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* sombra suave */
+}
+
+/* Animación */
+@keyframes scrollMarcas {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.poderVer{
+  height: 330px;
+  background-color:#fc6023;
+}
+
+
+.imagenYoutube{
+  height: 200px;
+  width: 300px;
+  background-image: url(img/veteviendo2.png);
+ 
+  margin-left: 12.6%;
+}
+
+.redesCel{
+  background-color: #0a5592;
+  height: 225px;
+}
+
+.textoderedesCel{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+
+.parrafodeCel{
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.logoderedesCel{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.imagenCel{
+height: 40px;
+background-color: #1591f7;
+margin-right: 20px;
+padding: 5px;
+}
+
+
+.piedepaginaCel{
+ height: 100px;
+ background-color: #C4C4C4;
+ display: block;
+ text-align: center;
+}
+
+
+.titulodePie{
+  padding: 18px 0 1px 0;
+  font-size: 20px;
+  
+}
+
+.textodePie{
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+
+.navbar.scrolled {
+  background-color:#1b1b1b !important;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled .navbar-brand {
+  color: white !important;
+}
+
+
+.navbar .navbar-brand {
+  color:#1b1b1b;
+  transition: color 0.3s ease;
+}
+
+}
+
+@media (min-width: 601px) {
+  .celulares {
+    display: none;
+  }
+}
+
+
+
+
+
+/* Estilos Responsivos */
+

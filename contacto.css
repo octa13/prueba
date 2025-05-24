@@ -551,17 +551,19 @@ align-items: center;
 }
 
 .tituloCel{
- 
-  padding-left: 20px;
   font-family: "Poppins", sans-serif;
-  font-size: 32px;
+  font-size:40px;
   font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  
 }
 
 .subtituloCel{
   font-size: 15px;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
 }
 
 
@@ -615,32 +617,64 @@ align-items: center;
   color: white;
 }
 
+.fContacto{
+  width: 340px;
 
-.imagendeMaxi{
-  margin: 20px 0 0 0;
-  height: 300px;
-  
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+input{
+width: 340px;
+height: 40px;
+margin-bottom: 20px;
+font-size: 17px;
+padding-left: 10px;
+}
+
+.input2{
+width: 340px;
+height: 80px;
+margin-bottom: 20px;
+font-size: 20px;
+padding-left: 10px; 
 }
 
 
-img{
-  height: 300px;
+.enviarMensaje{
+  background-color:#fc6023;
+  border: none;
+  border-radius: 18px;
+  padding: 7px;
+  font-weight: bolder;
+  font-size: 16px;
+  width: 150px;
+  color: white;
+  margin-left: 27%;
+  margin-top: 10px;
+ 
+}
+
+.imagenesdeBase{
+  height: 245px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9),  #C4C4C4) no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ib1{
+width: 150px;
+height: 245px;
+background-image: url(img/ku.png);
+background-size: contain;
 }
 
 
-
-.imagendeMaxi img {
-  position: absolute;
-}
-
-.fondo {
-  z-index: 1;
-  margin-left: 70px;
-}
-
-.frente {
-  z-index: 2;
-  margin-left: 70px;
+.ib2{
+width: 150px;
+height: 245px;
+background-image: url(img/kkk.png);
+background-size: contain;
 }
 
 
@@ -665,6 +699,9 @@ padding: 40px 0 0 0 ;
   color: white;
 }
 
+
+
+
 .parrafoproduCel{
   color: white;
   text-align: center;
@@ -687,122 +724,13 @@ padding: 40px 0 0 0 ;
 }                                 
 
 
-.bloqueServicio{
-  background-image: url(img/fondobloque4.png);
-  background-size: cover;
-  height:545px;
-  padding: 30px 0 0 0;
-}
-
-.imagenserviCel{
-  height: 250px;
-  width: 230px;
-  background-image: url(img/bloqueImagen1.png);
-  background-size: cover;
-  margin-left: 20%;
- 
-}
-
-.tituloservicioCel{
-  font-family:"Poppins", sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  padding: 2px 5px;
-  background-color: #0a5592;
-  color: white;
-  margin: 10px 0 0 104px;
-  width: 180px;
-}
-
-.textoerviCel{
-  padding: 10px 30px;
-  font-size: 15px;
-  text-align: center;
-  background-color: #dadada;
-  margin: 10px 30px;
-  border-radius: 10px;
-}
-
-.bloqueServicio2{
-  background-image: url(img/fondobloque3.png);
-  background-size: cover;
-  background-position-x: right;
-  height:545px;
-  padding: 30px 0 0 0;
-}
-
-.imagenserviCel2{
-  height: 250px;
-  width: 230px;
-  background-image: url(img/bloqueImagen2.png);
-  background-size: cover;
-  margin-left: 20%;
-}
-
-.imagenserviCel3{
-  height: 250px;
-  width: 230px;
-  background-image: url(img/bloqueImagen3.png);
-  background-size: cover;
-  margin-left: 20%;
-}
-
-.colaboracionCel{
-  background-color: white;
-  height: 285px;
-}
-
-.colaboracionesCelular{
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  color:black;
-  padding: 30px 0 0 0;
-}
-
-.carrusel-marcas {
-  overflow: hidden;
-  width: 100%;
-  background: #fff;
-  padding: 20px 0;
-  height: 230px;
-
-}
-
-.carrusel-track {
-  display: flex;
-  width: max-content;
-  animation: scrollMarcas 20s linear infinite;
-  gap: 50px;
-  align-items: center;
-}
-
-.carrusel-track img {
-  height: 150px;
-  flex-shrink: 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* sombra suave */
-}
 
 /* Animación */
 @keyframes scrollMarcas {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-.poderVer{
-  height: 330px;
-  background-color:#fc6023;
-}
 
-
-.imagenYoutube{
-  height: 200px;
-  width: 300px;
-  background-image: url(img/veteviendo2.png);
- 
-  margin-left: 12.6%;
-}
 
 .redesCel{
   background-color: #0a5592;

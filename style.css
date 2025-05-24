@@ -32,10 +32,17 @@ p{
   font-size: 20px;
 }
 
+.fondoEncabezado{
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.5),  #C4C4C4) no-repeat;
+  height: 605px;
+}
+
+
+
 .container-fluid {
   width: 100%;
   min-height: 100vh;
-  background-color: #C4C4C4;
+  background-color:transparent;
   position: relative;
 }
 
@@ -91,7 +98,7 @@ h1 {
   font-size:80px;
   font-weight: bold;
   line-height: 1.1;
-
+  color: black;
 }
 
 header h2 {
@@ -202,6 +209,7 @@ header button:hover {
 
 .textoEscritorio{
   font-size: 23px;
+  color: rgb(0, 0, 0);
 }
 
 .produccionesPropias{

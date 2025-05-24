@@ -854,7 +854,8 @@ margin-bottom: 15px;
   margin-left: 10%;
   margin-top: 25px;
   border-radius: 30px;
-  border: solid white;
+  border: solid 1px white;
+  
 }
 
 .carousel-item{
@@ -865,11 +866,13 @@ margin-bottom: 15px;
   margin-left: 3%;
   margin-top: 2.5%;
   border: none;
+ 
 }
 
 .d-block{
 border-radius: 30px;
 height: 430px;
+
 }
 
 .referencia{

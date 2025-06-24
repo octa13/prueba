@@ -101,10 +101,15 @@ nav a.menu {
 
 .formulario{
   height: 730px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9),  #C4C4C4) no-repeat;
-  
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), #C4C4C4);
+  background-repeat: no-repeat;
+  background-size: 100% 30%; /* Solo el 30% inferior */
+  background-position: bottom;
   display: flex;
 }
+
+
+
 
 .f1{
   background-image: url(img/im2.png);
@@ -121,7 +126,7 @@ nav a.menu {
 .tituloForm{
   font-weight: bold;
   font-size: 80px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding-top: 50px;
  line-height: 70px;
@@ -131,7 +136,7 @@ nav a.menu {
 
 .parrafoForm{
   text-align: center;
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   margin-left: 50px;
 
   width: 500px;
@@ -188,7 +193,50 @@ background-image: url(img/im1.png);
 
 .divisionBlan{
   height: 80px;
-  background-color: rgb(228, 228, 228);
+  background-image: url(img/fondoencabezado.png);
+}
+
+.produccionesPropias{
+  background-color: #3a3a3a;
+  height: 330px;
+  width: 100%;
+}
+
+.produccionesEscritorio{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding: 40px 0 0 0;
+  font-weight: bold;
+}
+
+
+
+.textoProducciones{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding: 20px 40px;
+}
+
+.verTodos{
+  background-color: #3a3a3a;
+  border: solid  #fc6023;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 140px;
+  color: white;
+  margin-left: 44%;
+  margin-top: 10px;
+  transition: transform 0.3s ease; /* Duración y suavidad de la transición */
+}
+
+.verTodos:hover{
+  background-color:  #ff4800;
+  color: white;
+   transform: scale(1.1); /* Aumenta el tamaño un 10% al pasar el cursor */
 }
 
 
@@ -234,36 +282,11 @@ background-image: url(img/im1.png);
 
 .blanco{
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
 
-.textoProducciones{
-  text-align: center;
-  font-size: 25px;
-  color: white;
-  padding: 20px 40px;
-}
 
-.verTodos{
-  background-color: #3a3a3a;
-  border: solid  #fc6023;
-  border-radius: 20px;
-  padding: 10px;
-  font-weight: bolder;
-  font-size: 18px;
-  width: 160px;
-  color: white;
-  margin-left: 44%;
-  margin-top: 10px;
-  transition: transform 0.3s ease; /* Duración y suavidad de la transición */
-}
-
-.verTodos:hover{
-  background-color:  #ff4800;
-  color: white;
-   transform: scale(1.1); /* Aumenta el tamaño un 10% al pasar el cursor */
-}
 
 .bloqueMaxi{
   background-color: #C4C4C4;
@@ -723,7 +746,11 @@ padding: 40px 0 0 0 ;
 
 }                                 
 
-
+.divisionBlan{
+  background-image: url(img/fondoencabezado.png);
+  height: 30px;
+  background-size: cover;
+}
 
 /* Animación */
 @keyframes scrollMarcas {
